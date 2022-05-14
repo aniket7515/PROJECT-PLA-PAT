@@ -34,7 +34,7 @@ const Navbar = () => {
           <a className="nav-link active m-3" href="#">Weather</a>
         </li>
         <li className="nav-item">
-          <a className="nav-link active m-3" href="#">Pricing</a>
+          <a className="nav-link active m-3" href="#">MSP(Pricing)</a>
         </li>
         <li className="nav-item">
           <a className="nav-link active m-3">Disabled</a>

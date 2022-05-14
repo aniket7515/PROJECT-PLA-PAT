@@ -1,4 +1,5 @@
 import React from 'react'
+import Footer from '../componenets/Footer'
 import Navbar from '../componenets/Navbar'
 import SchemeCard from '../componenets/SchemeCard'
 
@@ -33,6 +34,8 @@ const CropFieldScheme = () => {
         title="National Programme on Organic Production (NPOP)"
         content="Development of organic value chains in the North East Region of India and promote organic farming."
         />
+
+        <Footer/>
     </div>
   )
 }

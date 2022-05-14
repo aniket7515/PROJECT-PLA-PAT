@@ -1,4 +1,5 @@
 import React from 'react'
+import Footer from './Footer'
 import Navbar from './Navbar'
 import SchemeCard from './SchemeCard'
 
@@ -10,6 +11,7 @@ const InsauranceScheme = () => {
         <SchemeCard 
         title="Pradhan Mantri Fasal Bima Yojana (PMFBY)"
         content="Provides comprehensive insurance cover against failure of the crop thus helping in stabilising the income of the farmers."
+        
         />
         <SchemeCard 
         title="Prime Minister Jeevan Jyoti Bima Yojana"
@@ -23,6 +25,8 @@ const InsauranceScheme = () => {
         title="Livestock insurance Scheme"
         content="Provides protection mechanism to the farmers against any eventual loss of their animals due to death."
         />
+
+        <Footer/>
     </div>
   )
 }

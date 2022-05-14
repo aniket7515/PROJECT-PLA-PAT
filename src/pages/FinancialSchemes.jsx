@@ -1,4 +1,5 @@
 import React from 'react'
+import Footer from '../componenets/Footer'
 import Navbar from '../componenets/Navbar'
 import SchemeCard from "../componenets/SchemeCard"
 
@@ -24,6 +25,8 @@ const FinancialSchemes = () => {
         title="Paramparagat Krishi Vikas Yojana (PKVY)"
         content="Financial aid of Rs. 50,000 per hectare/ three years is allowed, out of which Rs. 31,000 (61 percent) is given to the farmer directly."
         />
+
+        <Footer/>
     </div>
   )
 }

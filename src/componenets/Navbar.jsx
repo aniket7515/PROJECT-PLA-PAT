@@ -1,4 +1,5 @@
 import React from 'react'
+import {Link} from 'react-router-dom'
 
 const Navbar = () => {
   return (
@@ -20,10 +21,10 @@ const Navbar = () => {
             Dropdown
           </a>
           <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
-            <li><a className="dropdown-item" href="#">Insaurance Schemes</a></li>
-            <li><a className="dropdown-item" href="#">Financial Schemes</a></li>
+            <li><Link to="/insaurancescheme" className="dropdown-item" >Insaurance Schemes</Link></li>
+            <li><Link to="/financialcheme" className="dropdown-item" href="#">Financial Schemes</Link></li>
             
-            <li><a className="dropdown-item" href="#">Crop Field</a></li>
+            <li><Link to="/cropscheme" className="dropdown-item" href="#">Crop Field</Link></li>
           </ul>
         </li>
 

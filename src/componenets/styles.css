@@ -1,0 +1,23 @@
+.header{
+    background-image:url(./Images/bg.jpg);
+    height: 90vh;
+    background-repeat:no-repeat;
+    background-position:center;
+    background-size:cover;
+    
+
+}
+
+.headerdiv .title1 h3{
+    font-weight: bold;
+}
+
+
+@media only screen and (min-width:1200px) {
+    .header{
+        padding-left: 220px;
+        padding-right:220px;
+    }
+}
+
+

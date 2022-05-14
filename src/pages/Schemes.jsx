@@ -1,14 +1,14 @@
 import React from 'react'
 import Navbar from '../componenets/Navbar'
-import SchemeSection from '../componenets/SchemeSection'
+import SchemeSection from '../componenets/InsauranceScheme'
 
 const Schemes = () => {
   return (
     <>
 
     <Navbar/>
-    <SchemeSection/>
-    
+
+
     </>
   )
 }

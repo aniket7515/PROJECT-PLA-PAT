@@ -3,6 +3,7 @@ import './App.css';
 import {BrowserRouter,Routes,Route} from 'react-router-dom'
 import LandingPage from './pages/LandingPage';
 import Schemes from './pages/Schemes';
+import InsauranceScheme from './componenets/InsauranceScheme';
 
 function App() {
   return (
@@ -10,7 +11,7 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route path='/' exact element={<LandingPage/>}/>
-          <Route path='/schemes' exact element={<Schemes/>}/>
+          <Route path='/insaurancescheme' exact element={<InsauranceScheme/>}/>
 
           
         </Routes>

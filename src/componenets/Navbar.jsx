@@ -13,7 +13,7 @@ const Navbar = () => {
     <div className="collapse navbar-collapse" id="navbarNav">
       <ul className="navbar-nav mr-auto  ms-auto">
         <li className="nav-item">
-          <a className="nav-link active m-3" aria-current="page" href="#">Home</a>
+          <a className="nav-link active m-3" aria-current="page" href="#">Weather</a>
         </li>
 
         <li className="nav-item dropdown m-3">
@@ -31,7 +31,7 @@ const Navbar = () => {
 
 
         <li className="nav-item">
-          <a className="nav-link active m-3" href="#">Weather</a>
+          <Link to="/krishikshetra" className="nav-link active m-3" href="#">Krishi Kshetra</Link>
         </li>
         <li className="nav-item">
           <Link to="/msp" className="nav-link active m-3" >MSP(Pricing)</Link>

@@ -1,4 +1,5 @@
 import React from 'react'
+import ContactUs from '../componenets/ContactUs'
 import Footer from '../componenets/Footer'
 import Header from '../componenets/Header'
 import Navbar from '../componenets/Navbar'
@@ -12,6 +13,7 @@ const LandingPage = () => {
         <Navbar/>
         <Header/>
         <Services/>
+        <ContactUs/>
         <Footer/>
 
     </div>

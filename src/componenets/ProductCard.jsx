@@ -12,7 +12,7 @@ const ProductCard = ({imgsrc,title,about}) => {
           <p className="card-text">
             <strong>price:</strong> {about}
           </p>
-          <a href="#" className="btn btn-primary">
+          <a href="#" className="btn btn-primary" style={{backgroundColor:"#4dd99a"}}>
            Add to Cart
           </a>
         </div>

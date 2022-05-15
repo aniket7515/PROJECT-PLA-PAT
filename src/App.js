@@ -8,6 +8,8 @@ import FinancialSchemes from './pages/FinancialSchemes';
 import CropFieldScheme from './pages/CropFieldScheme';
 import Msp from './pages/Msp';
 import KrishiMarket from './pages/KrishiMarket';
+import Weather from './pages/Weather';
+
 
 function App() {
   return (
@@ -20,6 +22,8 @@ function App() {
           <Route path='/cropscheme' exact element={<CropFieldScheme/>}/>
           <Route path='/msp' exact element={<Msp/>}/>
           <Route path='/krishikshetra' exact element={<KrishiMarket/>}/>
+          {/* <Route path='/weather' exact element={<Weather/>}/> */}
+          
 
           
         </Routes>

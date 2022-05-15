@@ -6,6 +6,7 @@ import Schemes from './pages/Schemes';
 import InsauranceScheme from './componenets/InsauranceScheme';
 import FinancialSchemes from './pages/FinancialSchemes';
 import CropFieldScheme from './pages/CropFieldScheme';
+import Msp from './pages/Msp';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
           <Route path='/insaurancescheme' exact element={<InsauranceScheme/>}/>
           <Route path='/financialcheme' exact element={<FinancialSchemes/>}/>
           <Route path='/cropscheme' exact element={<CropFieldScheme/>}/>
+          <Route path='/msp' exact element={<Msp/>}/>
 
           
         </Routes>

@@ -6,7 +6,7 @@ const Navbar = () => {
     <div>
         <nav className="navbar navbar-expand-lg bg-light">
   <div className="container-fluid">
-    <a className="navbar-brand" href="#">FarmzzEazy</a>
+    <Link to="/" className="navbar-brand" >FarmzzEazy</Link>
     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
       <span className="navbar-toggler-icon"></span>
     </button>
@@ -34,7 +34,7 @@ const Navbar = () => {
           <a className="nav-link active m-3" href="#">Weather</a>
         </li>
         <li className="nav-item">
-          <a className="nav-link active m-3" href="#">MSP(Pricing)</a>
+          <Link to="/msp" className="nav-link active m-3" >MSP(Pricing)</Link>
         </li>
         <li className="nav-item">
           <a className="nav-link active m-3">Disabled</a>

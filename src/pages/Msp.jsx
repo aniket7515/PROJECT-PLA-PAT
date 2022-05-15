@@ -2,6 +2,7 @@ import React from 'react'
 import Footer from '../componenets/Footer'
 import KharifMsp from '../componenets/KharifMsp'
 import Navbar from '../componenets/Navbar'
+import RabiMsp from '../componenets/RabiMsp'
 
 const Msp = () => {
   return (
@@ -11,6 +12,8 @@ const Msp = () => {
         <p className="mb-5">MSP is the guaranteed ‘minimum floor price’ that farmer must get from the government in case the market price of the crops <br/> falls below the MSP. <br/> <strong>Projected Crop:</strong>  Avg amount of money required to produce one quintal of a given crop.</p>
 
         <KharifMsp/>
+
+        <RabiMsp/>
 
         <Footer/>
     </div>

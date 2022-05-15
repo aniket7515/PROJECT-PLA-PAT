@@ -26,7 +26,7 @@ const Services = () => {
   <div className="row2-container">
     <div className="box orange">
       <h2>Krishi Kshetra</h2>
-      <p>Regularly evaluates our talent to ensure quality</p>
+      <p>Connecting farmers and traders</p>
       <img src="https://assets.codepen.io/2301174/icon-karma.svg" alt=""/>
     </div>
   </div>

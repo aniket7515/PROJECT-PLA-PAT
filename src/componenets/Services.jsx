@@ -18,8 +18,8 @@ const Services = () => {
     </div>
 
     <div className="box box-down blue">
-      <h2>Weather</h2>
-      <p>Uses data from past projects to provide better delivery estimates</p>
+      <h2>Loan</h2>
+      <p>Agricultural loans are available for different kinds of farming-related activities.</p>
       <img src="https://assets.codepen.io/2301174/icon-calculator.svg" alt=""/>
     </div>
   </div>

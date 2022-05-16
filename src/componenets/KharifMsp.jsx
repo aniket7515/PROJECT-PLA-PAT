@@ -5,7 +5,7 @@ const KharifMsp = () => {
     <div>
         <h2>For kharif marketing season KMS (2021-2022)</h2>
 
-        <table className="table table-striped container">
+        <table className="table table-striped container ">
   <thead>
     <tr>
       <th scope="col">Crop</th>

@@ -15,7 +15,7 @@ const Footer = () => {
           >
             {/* <!-- Grid column --> */}
             <div className="col-md-6 col-lg-5 text-center text-md-left mb-4 mb-md-0">
-              <h6 className="mb-0">Get connected with us on social networks!</h6>
+              <h6 className="mb-0">Get connected with us!</h6>
             </div>
             {/* <!-- Grid column --> */}
 

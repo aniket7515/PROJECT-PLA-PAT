@@ -9,6 +9,8 @@ import CropFieldScheme from './pages/CropFieldScheme';
 import Msp from './pages/Msp';
 import KrishiMarket from './pages/KrishiMarket';
 import Weather from './pages/Weather';
+import Login from './pages/Login';
+import Loan from './pages/Loan';
 
 
 function App() {
@@ -23,6 +25,9 @@ function App() {
           <Route path='/msp' exact element={<Msp/>}/>
           <Route path='/krishikshetra' exact element={<KrishiMarket/>}/>
           {/* <Route path='/weather' exact element={<Weather/>}/> */}
+          <Route path='/login' exact element={<Login/>}/>
+          <Route path='/loan' exact element={<Loan/>}/>
+          
           
 
           

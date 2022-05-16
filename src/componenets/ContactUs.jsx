@@ -33,6 +33,7 @@ const ContactUs = () => {
        
         
       </form>
+      <p><strong>Toll Free:</strong>1800-180-1551</p>
     </div>
   );
 };

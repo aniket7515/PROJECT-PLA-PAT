@@ -11,7 +11,7 @@ const Footer = () => {
           {/* <!-- Grid row--> */}
           <div
             className="row py-4 d-flex align-items-center"
-            style={{backgroundColor:"#4dd99a"}}
+            style={{backgroundColor:"#4fa74f"}}
           >
             {/* <!-- Grid column --> */}
             <div className="col-md-6 col-lg-5 text-center text-md-left mb-4 mb-md-0">
@@ -121,7 +121,7 @@ const Footer = () => {
         </div>
 
         <div className="footer-copyright text-center text-black-50 py-3">
-          © 2020 Copyright:
+          © 2022 Copyright:
           <a className="dark-grey-text" href="">
             {" "}
             Farmzz Eazy

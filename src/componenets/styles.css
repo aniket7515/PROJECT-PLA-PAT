@@ -313,3 +313,10 @@ h2 {
         width: 30%;
     }
 }
+
+
+
+
+nav ul li a:hover{
+    color:#60efbc;
+}

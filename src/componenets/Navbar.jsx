@@ -1,6 +1,7 @@
 import React from 'react'
 import {Link} from 'react-router-dom'
 
+
 const Navbar = () => {
   return (
     <div>
@@ -25,6 +26,19 @@ const Navbar = () => {
             <li><Link to="/financialcheme" className="dropdown-item" href="#">Financial Schemes</Link></li>
             
             <li><Link to="/cropscheme" className="dropdown-item" href="#">Crop Field</Link></li>
+          </ul>
+        </li>
+        <li className="nav-item dropdown m-3">
+          <a className="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Farming
+          </a>
+          <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li><Link to="/typeoffarming" className="dropdown-item" >Types of Farming</Link></li>
+            <li><Link to="/useofpesticides" className="dropdown-item" href="#">Pesticides</Link></li>
+            
+            <li><Link to="/sustainableagri" className="dropdown-item" href="#">Sustainable Agriculture</Link></li>
+            <li><Link to="/seed" className="dropdown-item" href="#">Seeds</Link></li>
+            <li><Link to="/faq" className="dropdown-item" href="#">Faqs</Link></li>
           </ul>
         </li>
 
